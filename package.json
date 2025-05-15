@@ -1,0 +1,40 @@
+{
+  "name": "blog-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WParedes2007/Blog-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WParedes2007/Blog-System/issues"
+  },
+  "homepage": "https://github.com/WParedes2007/Blog-System#readme",
+  "dependencies": {
+    "argon2": "^0.43.0",
+    "blog-system": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "install": "^0.13.0",
+    "mongoose": "^8.14.3",
+    "morgan": "^1.10.0",
+    "npm": "^11.3.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
