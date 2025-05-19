@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "6824ecfb70d12072eff9a8fd"
+  },
+  "postId": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "name": "Juan Pérez",
+  "content": "Este es un comentario interesante.",
+  "createdAt": {
+    "$date": "2025-05-14T19:20:27.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824f0e9005c8cdb6d1a0894"
+  },
+  "postId": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "name": "Anónimo",
+  "content": "Holaa.",
+  "createdAt": {
+    "$date": "2025-05-14T19:37:13.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824f100005c8cdb6d1a0897"
+  },
+  "postId": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "name": "Jacob123",
+  "content": "Holaa.",
+  "createdAt": {
+    "$date": "2025-05-14T19:37:36.325Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68252e4fdcdabf523859a5f3"
+  },
+  "postId": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "name": "Anónimo",
+  "content": "que tal",
+  "createdAt": {
+    "$date": "2025-05-14T23:59:11.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68253cae37d71410dca34d74"
+  },
+  "postId": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "name": "Carlos",
+  "content": "que onda padrino",
+  "createdAt": {
+    "$date": "2025-05-15T01:00:31.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68254daf37d71410dca34e3c"
+  },
+  "postId": {
+    "$oid": "68254bff37d71410dca34e0d"
+  },
+  "name": "Anónimo",
+  "content": "Es el que mas utilizamos en Kinal",
+  "createdAt": {
+    "$date": "2025-05-15T02:13:03.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682551bd37d71410dca34e85"
+  },
+  "postId": {
+    "$oid": "68254bff37d71410dca34e0d"
+  },
+  "name": "Jim",
+  "content": "Que tal",
+  "createdAt": {
+    "$date": "2025-05-15T02:30:21.208Z"
+  },
+  "__v": 0
+}]

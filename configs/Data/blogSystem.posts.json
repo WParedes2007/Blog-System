@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6824ecaf70d12072eff9a8f9"
+  },
+  "title": "Chakra",
+  "description": "Es una dependencia que nos ayuda con el diseño",
+  "course": {
+    "$oid": "6824eca570d12072eff9a8f6"
+  },
+  "createdAt": {
+    "$date": "2025-05-14T19:19:11.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6825422637d71410dca34dfd"
+  },
+  "title": "React",
+  "description": "Es una biblioteca de JavaScript de código abierto diseñada para construir interfaces de usuario interactivas.",
+  "course": {
+    "$oid": "682541e437d71410dca34df6"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T01:23:50.641Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68254bff37d71410dca34e0d"
+  },
+  "title": "Vite con React",
+  "description": "Es una combinación para desarrollar aplicaciones web de manera rápida y eficiente.",
+  "course": {
+    "$oid": "682541a137d71410dca34dde"
+  },
+  "createdAt": {
+    "$date": "2025-05-15T02:05:51.597Z"
+  },
+  "__v": 0
+}]

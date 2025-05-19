@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6824eca570d12072eff9a8f6"
+  },
+  "name": "Taller",
+  "description": "Curso práctico para aprender habilidades técnicas.",
+  "createdAt": {
+    "$date": "2025-05-14T19:19:01.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682541a137d71410dca34dde"
+  },
+  "name": "Tecnología",
+  "description": "Curso teorico para aprender habilidades en informatica.",
+  "createdAt": {
+    "$date": "2025-05-15T01:21:37.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682541e437d71410dca34df6"
+  },
+  "name": "Práctica Supervisada",
+  "description": "Curso teorico y practico para aprender habilidades en informatica.",
+  "createdAt": {
+    "$date": "2025-05-15T01:22:44.444Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "3bc5063c-6a54-47b1-8af4-912f5225afbe",
+		"name": "Blog System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42475632"
+	},
+	"item": [
+		{
+			"name": "CREATE POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Vite con React\",\r\n  \"description\": \"Es una combinación para desarrollar aplicaciones web de manera rápida y eficiente.\",\r\n  \"course\": \"682541a137d71410dca34dde\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET POST",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET POST ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/posts/6824ecaf70d12072eff9a8f9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"posts",
+						"6824ecaf70d12072eff9a8f9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE COURSE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Práctica Supervisada\",\r\n  \"description\": \"Curso teorico y practico para aprender habilidades en informatica.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET COURSE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST COMMENT",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"postId\": \"6824ecaf70d12072eff9a8f9\", // ID de la publicación\r\n  \"name\": \"Jacob123\", // Opcional, se usará \"Anónimo\" si no se proporciona\r\n  \"content\": \"Holaa.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET COMMENT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/blogSystem/comments/6824ecaf70d12072eff9a8f9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogSystem",
+						"comments",
+						"6824ecaf70d12072eff9a8f9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
