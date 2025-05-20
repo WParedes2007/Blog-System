@@ -12,16 +12,17 @@ export const getCourses = async (req, res) => {
 export const createCourse = async (req, res) => {
   const { name, description } = req.body;
 
-  const validCourses = ["Taller", "Tecnología", "Práctica Supervisada"];
-  if (!validCourses.includes(name)) {
-    return res.status(400).json({ message: `El curso debe ser uno de los siguientes: ${validCourses.join(", ")}` });
-  }
-
   try {
     const newCourse = new Course({ name, description });
+
     await newCourse.save();
+
     res.status(201).json(newCourse);
   } catch (error) {
+    if (error.code === 11000) {
+      return res.status(400).json({ message: "El curso con este nombre ya existe." });
+    }
+    
     res.status(400).json({ message: "Error al crear el curso", error });
   }
 };
@@ -36,3 +37,4 @@ export const getCourseById = async (req, res) => {
     res.status(500).json({ message: "Error al obtener el curso" });
   }
 };
+

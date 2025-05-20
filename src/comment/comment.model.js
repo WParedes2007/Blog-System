@@ -3,13 +3,13 @@ import mongoose from "mongoose";
 const commentSchema = new mongoose.Schema({
   postId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Post", // Referencia al modelo de publicaciones
+    ref: "Post",
     required: [true, "El ID de la publicación es obligatorio"],
   },
   name: {
     type: String,
     required: [true, "El nombre del autor es obligatorio"],
-    default: "Anónimo", // Nombre por defecto si no se proporciona
+    default: "Anónimo", 
   },
   content: {
     type: String,
@@ -17,8 +17,12 @@ const commentSchema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    default: Date.now, // Fecha del comentario
+    default: Date.now, 
   },
+  status: {
+      type: Boolean,
+      default: true,
+  }
 });
 
 const Comment = mongoose.model("Comment", commentSchema);

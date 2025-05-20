@@ -4,7 +4,7 @@ const courseSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "El nombre del curso es obligatorio"],
-    enum: ["Taller", "Tecnología", "Práctica Supervisada"],
+    unique: true
   },
   description: {
     type: String,
@@ -13,7 +13,7 @@ const courseSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now,
-  },
+  }
 });
 
 const Course = mongoose.model("Course", courseSchema);
